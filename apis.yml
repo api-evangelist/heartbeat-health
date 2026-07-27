@@ -1,8 +1,27 @@
 aid: heartbeat-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heartbeat-health.png
 name: Heartbeat Health
-description: 'Heartbeat Health is a company surfaced as a portfolio company of kindred-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: health-wellness. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Heartbeat Health is a New York-based modern cardiology practice delivering
+  remote and virtual cardiovascular care. The company combines early detection, home-based
+  cardiac diagnostics, remote patient monitoring, risk stratification and evidence-based
+  care coordination to proactively identify, treat and manage moderate-to-high cardiovascular
+  risk. It serves hospitals and health systems, payors and employer groups, providers
+  and ACOs, and in-home care providers, reporting outcomes such as 90%+ of patients
+  reaching target blood pressure and a 53% reduction in cardiac readmissions. Backed
+  by Optum Ventures, DaVita Venture Group and Echo Health Ventures, it is a care-delivery
+  organization rather than a public API provider; no developer portal, API documentation,
+  or public API surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/heartbeat-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Health Wellness
+- Cardiology
+- Telehealth
+- Remote Patient Monitoring
+- Digital Health
+- Cardiovascular Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://heartbeathealth.com/
+- type: Blog
+  url: https://www.heartbeathealth.com/pulsepoints-blog/
+- type: Support
+  url: https://www.heartbeathealth.com/lets-talk/
+- type: TermsOfService
+  url: https://www.heartbeathealth.com/general-terms/
+- type: PrivacyPolicy
+  url: https://www.heartbeathealth.com/privacy/
+- type: Compliance
+  url: https://www.heartbeathealth.com/compliance/
+- type: DomainSecurity
+  url: security/heartbeat-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
